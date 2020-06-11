@@ -1,0 +1,125 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color:#dfdfdf;
+}
+
+#head {
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: pink;
+}
+
+#body {
+    width: 80%;
+    height: 1500px;
+    margin: 0 auto;
+
+    background-color: pink;
+}
+
+#aside {
+    width: 25%;
+    height: 100%;
+    background-color:#f5ededd2;
+    float: left;
+
+}
+
+#content {
+    width: 75%;
+    height: 100%;
+    float: left;
+    background-color: white;
+
+}
+
+#footer {
+    width: 80%;
+    height: 60px;
+    background-color: pink;
+    margin: 0 auto;
+    text-align: center;
+    color: black;   
+}
+#head img {
+    width: 10%;
+    vertical-align: middle;
+}
+
+#head h1 {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#aside>ul {
+    list-style: none;
+    line-height: 80px;
+    color: black;
+    display: block;
+    margin-block-start: 0;
+    padding-inline-start: 0px;
+    font-size: 18px;
+}
+
+#aside li a {
+    text-decoration: none;
+   
+
+}
+
+#aside img {
+    width: 13px;
+}
+
+
+#content h3 {
+    color: pink;
+    border-left: 10px solid pink;
+    font-size: 32px;
+}
+
+#tou {
+    text-align: center;
+    margin-top: 2%;
+}
+
+#tou img {
+    height: 200px;
+}
+
+#content section img {
+    height: 100px;
+    width: 110px;
+}
+
+#neirong {
+    padding-left: 10px;
+}
+
+#neirong p {
+    text-indent: 2em;
+}
+
+#aside a:hover {
+    color: pink;
+
+}
+
+#tou tbody td:nth-child(2)::before {
+    color: burlywood;
+    content: '￥';
+
+}
+
+#aside hr {
+    border: 0px;
+    border-top: 3px dashed pink;
+}
+table{
+    border-color: grey;
+    border-collapse:collapse
+}
