@@ -67,6 +67,7 @@ body {
 
 #aside li a {
     text-decoration: none;
+    color:black;
    
 
 }
@@ -79,7 +80,7 @@ body {
 #content h3 {
     color: pink;
     border-left: 10px solid pink;
-    font-size: 32px;
+    font-size: 25px;
 }
 
 #tou {
@@ -102,6 +103,10 @@ body {
 
 #neirong p {
     text-indent: 2em;
+}
+#neirong p::first-letter{
+    font-size: 32px;
+    color: pink;
 }
 
 #aside a:hover {
